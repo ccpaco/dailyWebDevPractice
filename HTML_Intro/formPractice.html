@@ -19,11 +19,11 @@
         </p>
         <p> 
             <label for="textInput">Enter username:</label>
-            <input type="text" placeholder="Text input" id="textInput">
+            <input type="text" placeholder="Text input" id="textInput" required>
         </p>
         <p>
             <label for="password">Enter Password</label>
-            <input type="password" placeholder="password" id="password">
+            <input type="password" placeholder="password" id="password" required minlength="3">
         </p>
         <p>
             <label id="colorpicker">Color picker</label>
@@ -32,6 +32,32 @@
         <!-- defaults sending form inputs to the form's action attribute. Type of button ignores this -->
         <button>Submit</button> 
         <button type="button"> Default</button>
+    </form>
+    <form action="https://www.reddit.com/search">
+        <input type="text" name="q">
+        <button>Submit</button>
+    </form>
+    <!-- Radio types are grouped by the Name -->
+    <form>
+        <p>
+            <label for="Rare">Rare</label>
+            <input type="radio" name="steakDoneness" value="Rare">
+            <label for="Medium Rare" name="steakDoneness">Medium Rare</label>
+            <input type="radio" value="Medium Rare">
+            <label for="Medium" name="steakDoneness">Medium</label>
+            <input type="radio" value="Medium">
+        </p>
+        <button>Submit</button>
+    </form>
+    <form>
+        <label for="pets">Choose your pet</label>
+        <select name="pets" id="pets">
+            <option value="dog">Dog</option>
+            <option value="cat">Cat</option>
+            <option value="rabbit">Rabbit</option>
+            <option value="lizard">Lizard</option>
+        </select>
+        <button>Submit</button>
     </form>
 </body>
 
