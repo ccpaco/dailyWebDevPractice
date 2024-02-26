@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms Demo</title>
+</head>
+
+<body>
+    <h1>Forms Demo</h1>
+    <p> Action attribute is WHERE the data goes, Method attribute is what HTTP method to use.</p>
+    
+    <!-- Form method uses GET as default-->
+    <form action="/tacos">
+        <p>
+            <label for="cheese">Do you like Cheese?</label>
+            <input type="checkbox" name="cheese" id="cheese">
+        </p>
+        <p> 
+            <label for="textInput">Enter username:</label>
+            <input type="text" placeholder="Text input" id="textInput">
+        </p>
+        <p>
+            <label for="password">Enter Password</label>
+            <input type="password" placeholder="password" id="password">
+        </p>
+        <p>
+            <label id="colorpicker">Color picker</label>
+            <input type="color" id="colorpicker">
+        </p>
+        <!-- defaults sending form inputs to the form's action attribute. Type of button ignores this -->
+        <button>Submit</button> 
+        <button type="button"> Default</button>
+    </form>
+</body>
+
+</html>
