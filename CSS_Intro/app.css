@@ -1,8 +1,23 @@
 h1{
     color: purple;
+    text-align: center;
+    font-size: 80px;
 }
 
 body {
     background-color: #ffffff;
     /* background : this property can be set to images or gradients. */
+}
+
+h2{
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+p{
+    line-height: 2;
 }
