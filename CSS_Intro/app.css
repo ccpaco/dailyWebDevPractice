@@ -1,5 +1,6 @@
 h1{
     color: black;
+    background-color: cornflowerblue;
     text-align: center;
     font-size: 80px;
     font-weight: bold;
@@ -23,7 +24,28 @@ a{
 p{
     line-height: 2;
 }
+
+.album{
+    background-color: #fff2dfc9;
+}
+
+.album:nth-of-type(2n){
+    background-color: #ffffff;
+}
+
+
 /* Adjacent selector. Only paragraphs immediately after an h1 */
 h1 + p{
     color: red;
 }
+
+/* 
+attribute selector 
+input[type="text"]{
+
+}
+
+href contains google
+a[href*="google"]{
+
+} */
