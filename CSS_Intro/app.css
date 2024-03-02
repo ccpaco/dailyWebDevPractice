@@ -40,6 +40,10 @@ h1 + p{
 }
 
 /* 
+Specificity hierarchy
+Id > class > elements
+
+
 attribute selector 
 input[type="text"]{
 
