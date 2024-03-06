@@ -2,10 +2,10 @@ body{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-#container-left{
-    display: flex;
-    flex-direction: column;
-    width: 40%;
+#container{
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 20px;
 }
 
 #journalSection{
@@ -18,9 +18,12 @@ body{
 
 #freeJournalSection{
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 40%;
+    flex-wrap: wrap;
+    padding: 20px;
     background-color: peachpuff;
     border: 2px solid black;
+}
+
+#freeJournalSection h2{
+    width: 100%;
 }
