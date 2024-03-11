@@ -11,7 +11,8 @@ body{
 #journalSection{
     background-color: darkseagreen;
     border: 2px solid black;
-    padding: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
     padding-left: 20px;
     margin-bottom: 20px;
 }
@@ -19,7 +20,9 @@ body{
 #freeJournalSection{
     display: flex;
     flex-wrap: wrap;
-    padding: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
     background-color: peachpuff;
     border: 2px solid black;
 }
