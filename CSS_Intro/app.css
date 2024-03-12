@@ -44,6 +44,12 @@ h1 + p{
     color: red;
 }
 
+#albumPlaceholder{
+    height: 250px;
+    width: 250px;
+    background-color: red;
+}
+
 /* 
 Specificity hierarchy
 Id > class > elements
