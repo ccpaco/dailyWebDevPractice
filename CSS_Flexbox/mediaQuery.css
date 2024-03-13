@@ -1,0 +1,32 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+    font-size: 6em;
+    text-align: center;
+}
+nav {
+    font-size: 1.5em;
+}
+
+ul,li {
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+
+/* precisely at 800px */
+@media(width: 800px){
+    body {
+        background-color: #dad7cd;
+    }
+}
+
+/*min-width, max-width. Can use and to set a range. */
+@media(min-width: 900px) and (max-width: 1000px){
+    body{
+        background-color: #588157;
+    }
+}
+
